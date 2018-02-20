@@ -1,0 +1,30 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<title></title>
+<meta name="viewport" content="width=device-width, initial-scale=1" charset="utf-8">
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.css" />
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script>
+</head> 
+<body> 
+   <div data-role="page" id="page">
+	<div data-role="header" data-theme="b">
+		<h1>다양한 링크 연습</h1>
+	</div>
+	<div data-role="content">	
+	    <ul data-role="listview" >
+        	       <li data-role="list-divider"> 내부 도메인</li><!-- 리스트 디바이더 -->
+	       <li><a href="sub.html" data-transition="slide">같은 내부 페이지</a></li>
+                <li><a href="sub.html" data-rel="dialog" >대화상자로 열기</a></li>
+                <li data-role="list-divider"> 외부 도메인</li>
+                <li><a href="http://www.google.com" data-transition="slide" > www.google.com</a></li>
+                <li><a href="sub.html" rel="external" data-transition="slide">rel="external" 사용</a></li>
+	    </ul>
+	</div>
+	<div data-role="footer" data-theme="b">
+		<h4>Footer 입니다.</h4>
+	</div>
+   </div>
+</body>
+</html>

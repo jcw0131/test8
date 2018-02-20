@@ -1,0 +1,46 @@
+@charset "utf-8";
+@font-face{
+	font-family: SeoulNamsanFont;
+	src: url('SeoulNamsan.ttf')
+	
+}
+@font-face{
+	font-family:SeoulNamsanFont;
+	src: url('SeoulNamsanEB.ttf');
+	font-weight:bold;/**/ &nbsp;
+}
+
+*{
+	margin: 0px;
+	padding: 0px
+}
+body{
+	line-height: 150%;
+	font-family: SeoulNamsanFont;
+}
+a:link, a:visited {
+	text-decoration: underline;
+}
+h1{
+	font-size:25px;
+	color:#FFF;
+}
+h2{
+	font-size:19px;
+	color: #333;
+	margin-top:5px;
+	margin-bottom: 5px;
+}
+h3{
+	font-size: 12px;
+	color: #666;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+p{
+	margin-bottom:10px;
+	
+}
+header, footer{
+	display: block;
+}
